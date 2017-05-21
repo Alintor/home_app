@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="aMT-3R-7g1">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Сценарии-->
+        <scene sceneID="tUy-yu-vdQ">
+            <objects>
+                <navigationController id="aMT-3R-7g1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Сценарии" id="z2M-C7-lc6"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V3s-nw-eCv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="hFb-pZ-fqb" kind="relationship" relationship="rootViewController" id="IsR-Bc-ZFH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cIW-G1-FHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-706" y="200"/>
+        </scene>
+        <!--ScriptsVC-->
+        <scene sceneID="prt-MD-Cm0">
+            <objects>
+                <viewController storyboardIdentifier="Scripts" id="hFb-pZ-fqb" customClass="ScriptsVC" customModule="home_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FFE-86-jOL"/>
+                        <viewControllerLayoutGuide type="bottom" id="mzC-5n-07G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="i7c-wE-JHB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="2bi-mJ-pns"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PTd-E5-vWv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="100" y="168"/>
+        </scene>
+    </scenes>
+</document>

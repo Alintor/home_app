@@ -10,12 +10,33 @@
 		22853B4F6D7A75146BD55D8A /* Pods_home_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0A1E9356D15B351E979CE0 /* Pods_home_appTests.framework */; };
 		2FCDDEB4849ABF96461C93DD /* Pods_home_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A39DD1B70912A2E880BAC59 /* Pods_home_app.framework */; };
 		A83046DB1EB7730A00AEB118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83046DA1EB7730A00AEB118 /* AppDelegate.swift */; };
-		A83046DD1EB7730A00AEB118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83046DC1EB7730A00AEB118 /* ViewController.swift */; };
 		A83046E01EB7730A00AEB118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83046DE1EB7730A00AEB118 /* Main.storyboard */; };
 		A83046E21EB7730A00AEB118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A83046E11EB7730A00AEB118 /* Assets.xcassets */; };
 		A83046E51EB7730A00AEB118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A83046E31EB7730A00AEB118 /* LaunchScreen.storyboard */; };
 		A83046F01EB7730A00AEB118 /* home_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83046EF1EB7730A00AEB118 /* home_appTests.swift */; };
 		A83046FB1EB7730A00AEB118 /* home_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83046FA1EB7730A00AEB118 /* home_appUITests.swift */; };
+		A87BD5AB1ED17EC6004F4397 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5AA1ED17EC6004F4397 /* DashboardVC.swift */; };
+		A87BD5AD1ED17F28004F4397 /* SensorsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5AC1ED17F28004F4397 /* SensorsVC.swift */; };
+		A87BD5AF1ED17F41004F4397 /* RoomsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5AE1ED17F41004F4397 /* RoomsVC.swift */; };
+		A87BD5B11ED17F65004F4397 /* RoomsDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5B01ED17F65004F4397 /* RoomsDetailVC.swift */; };
+		A87BD5B31ED17F81004F4397 /* ScriptsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5B21ED17F80004F4397 /* ScriptsVC.swift */; };
+		A87BD5B51ED17F9E004F4397 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5B41ED17F9E004F4397 /* SettingsVC.swift */; };
+		A87BD5B71ED17FCE004F4397 /* DashboardVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5B61ED17FCE004F4397 /* DashboardVM.swift */; };
+		A87BD5B91ED17FE5004F4397 /* SensorsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5B81ED17FE5004F4397 /* SensorsVM.swift */; };
+		A87BD5BB1ED17FF9004F4397 /* RoomsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5BA1ED17FF9004F4397 /* RoomsVM.swift */; };
+		A87BD5BD1ED18016004F4397 /* RoomsDetailVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5BC1ED18016004F4397 /* RoomsDetailVM.swift */; };
+		A87BD5BF1ED1803E004F4397 /* ScriptsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5BE1ED1803E004F4397 /* ScriptsVM.swift */; };
+		A87BD5C11ED1805B004F4397 /* SettingsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5C01ED1805B004F4397 /* SettingsVM.swift */; };
+		A87BD5C31ED181A0004F4397 /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5C21ED181A0004F4397 /* DataProvider.swift */; };
+		A87BD5C51ED181E4004F4397 /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5C41ED181E4004F4397 /* ConnectionManager.swift */; };
+		A87BD5C71ED181FF004F4397 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5C61ED181FF004F4397 /* APIClient.swift */; };
+		A87BD5C91ED18240004F4397 /* FirebaseClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5C81ED18240004F4397 /* FirebaseClient.swift */; };
+		A87BD5CB1ED18255004F4397 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5CA1ED18255004F4397 /* LocalStorage.swift */; };
+		A87BD5CD1ED1826E004F4397 /* ConnectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5CC1ED1826E004F4397 /* ConnectionVC.swift */; };
+		A87BD5CF1ED182A7004F4397 /* Dashboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5CE1ED182A7004F4397 /* Dashboard.storyboard */; };
+		A87BD5D11ED182CB004F4397 /* Rooms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D01ED182CB004F4397 /* Rooms.storyboard */; };
+		A87BD5D31ED182E6004F4397 /* Scripts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D21ED182E6004F4397 /* Scripts.storyboard */; };
+		A87BD5D51ED182FB004F4397 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D41ED182FB004F4397 /* Settings.storyboard */; };
 		E9B7ACAD3250DDDFBEF5EFBB /* Pods_home_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C54E8A9B75FD98D0BEE496 /* Pods_home_appUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,7 +68,6 @@
 		9E9A2775037E849C38A4B4D4 /* Pods-home_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-home_appTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-home_appTests/Pods-home_appTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A83046D71EB7730A00AEB118 /* home_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = home_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83046DA1EB7730A00AEB118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A83046DC1EB7730A00AEB118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A83046DF1EB7730A00AEB118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A83046E11EB7730A00AEB118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A83046E41EB7730A00AEB118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +78,28 @@
 		A83046F61EB7730A00AEB118 /* home_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = home_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A83046FA1EB7730A00AEB118 /* home_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = home_appUITests.swift; sourceTree = "<group>"; };
 		A83046FC1EB7730A00AEB118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A87BD5AA1ED17EC6004F4397 /* DashboardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardVC.swift; path = classes/DashboardVC.swift; sourceTree = "<group>"; };
+		A87BD5AC1ED17F28004F4397 /* SensorsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorsVC.swift; path = classes/SensorsVC.swift; sourceTree = "<group>"; };
+		A87BD5AE1ED17F41004F4397 /* RoomsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomsVC.swift; path = classes/RoomsVC.swift; sourceTree = "<group>"; };
+		A87BD5B01ED17F65004F4397 /* RoomsDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomsDetailVC.swift; path = classes/RoomsDetailVC.swift; sourceTree = "<group>"; };
+		A87BD5B21ED17F80004F4397 /* ScriptsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScriptsVC.swift; path = classes/ScriptsVC.swift; sourceTree = "<group>"; };
+		A87BD5B41ED17F9E004F4397 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsVC.swift; path = classes/SettingsVC.swift; sourceTree = "<group>"; };
+		A87BD5B61ED17FCE004F4397 /* DashboardVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DashboardVM.swift; path = classes/DashboardVM.swift; sourceTree = "<group>"; };
+		A87BD5B81ED17FE5004F4397 /* SensorsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SensorsVM.swift; path = classes/SensorsVM.swift; sourceTree = "<group>"; };
+		A87BD5BA1ED17FF9004F4397 /* RoomsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomsVM.swift; path = classes/RoomsVM.swift; sourceTree = "<group>"; };
+		A87BD5BC1ED18016004F4397 /* RoomsDetailVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoomsDetailVM.swift; path = classes/RoomsDetailVM.swift; sourceTree = "<group>"; };
+		A87BD5BE1ED1803E004F4397 /* ScriptsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ScriptsVM.swift; path = classes/ScriptsVM.swift; sourceTree = "<group>"; };
+		A87BD5C01ED1805B004F4397 /* SettingsVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingsVM.swift; path = classes/SettingsVM.swift; sourceTree = "<group>"; };
+		A87BD5C21ED181A0004F4397 /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataProvider.swift; path = classes/DataProvider.swift; sourceTree = "<group>"; };
+		A87BD5C41ED181E4004F4397 /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionManager.swift; path = classes/ConnectionManager.swift; sourceTree = "<group>"; };
+		A87BD5C61ED181FF004F4397 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = classes/APIClient.swift; sourceTree = "<group>"; };
+		A87BD5C81ED18240004F4397 /* FirebaseClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirebaseClient.swift; path = classes/FirebaseClient.swift; sourceTree = "<group>"; };
+		A87BD5CA1ED18255004F4397 /* LocalStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocalStorage.swift; path = classes/LocalStorage.swift; sourceTree = "<group>"; };
+		A87BD5CC1ED1826E004F4397 /* ConnectionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConnectionVC.swift; path = classes/ConnectionVC.swift; sourceTree = "<group>"; };
+		A87BD5CE1ED182A7004F4397 /* Dashboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Dashboard.storyboard; path = classes/Dashboard.storyboard; sourceTree = "<group>"; };
+		A87BD5D01ED182CB004F4397 /* Rooms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Rooms.storyboard; path = classes/Rooms.storyboard; sourceTree = "<group>"; };
+		A87BD5D21ED182E6004F4397 /* Scripts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scripts.storyboard; sourceTree = "<group>"; };
+		A87BD5D41ED182FB004F4397 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = classes/Settings.storyboard; sourceTree = "<group>"; };
 		FFDC3CBA14A8E6A249C8FFA5 /* Pods-home_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-home_appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-home_appUITests/Pods-home_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,7 +170,12 @@
 			isa = PBXGroup;
 			children = (
 				A83046DA1EB7730A00AEB118 /* AppDelegate.swift */,
-				A83046DC1EB7730A00AEB118 /* ViewController.swift */,
+				A87BD5D61ED1830E004F4397 /* Dashboard */,
+				A87BD5D71ED1831D004F4397 /* Rooms */,
+				A87BD5D81ED1832D004F4397 /* Scripts */,
+				A87BD5D91ED18338004F4397 /* Settings */,
+				A87BD5CC1ED1826E004F4397 /* ConnectionVC.swift */,
+				A87BD5DA1ED18349004F4397 /* Model */,
 				A83046DE1EB7730A00AEB118 /* Main.storyboard */,
 				A83046E11EB7730A00AEB118 /* Assets.xcassets */,
 				A83046E31EB7730A00AEB118 /* LaunchScreen.storyboard */,
@@ -153,6 +200,62 @@
 				A83046FC1EB7730A00AEB118 /* Info.plist */,
 			);
 			path = home_appUITests;
+			sourceTree = "<group>";
+		};
+		A87BD5D61ED1830E004F4397 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD5AA1ED17EC6004F4397 /* DashboardVC.swift */,
+				A87BD5B61ED17FCE004F4397 /* DashboardVM.swift */,
+				A87BD5CE1ED182A7004F4397 /* Dashboard.storyboard */,
+				A87BD5AC1ED17F28004F4397 /* SensorsVC.swift */,
+				A87BD5B81ED17FE5004F4397 /* SensorsVM.swift */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		A87BD5D71ED1831D004F4397 /* Rooms */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD5AE1ED17F41004F4397 /* RoomsVC.swift */,
+				A87BD5BA1ED17FF9004F4397 /* RoomsVM.swift */,
+				A87BD5B01ED17F65004F4397 /* RoomsDetailVC.swift */,
+				A87BD5BC1ED18016004F4397 /* RoomsDetailVM.swift */,
+				A87BD5D01ED182CB004F4397 /* Rooms.storyboard */,
+			);
+			name = Rooms;
+			sourceTree = "<group>";
+		};
+		A87BD5D81ED1832D004F4397 /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD5B21ED17F80004F4397 /* ScriptsVC.swift */,
+				A87BD5BE1ED1803E004F4397 /* ScriptsVM.swift */,
+				A87BD5D21ED182E6004F4397 /* Scripts.storyboard */,
+			);
+			name = Scripts;
+			sourceTree = "<group>";
+		};
+		A87BD5D91ED18338004F4397 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD5B41ED17F9E004F4397 /* SettingsVC.swift */,
+				A87BD5C01ED1805B004F4397 /* SettingsVM.swift */,
+				A87BD5D41ED182FB004F4397 /* Settings.storyboard */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		A87BD5DA1ED18349004F4397 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A87BD5C21ED181A0004F4397 /* DataProvider.swift */,
+				A87BD5C41ED181E4004F4397 /* ConnectionManager.swift */,
+				A87BD5C61ED181FF004F4397 /* APIClient.swift */,
+				A87BD5C81ED18240004F4397 /* FirebaseClient.swift */,
+				A87BD5CA1ED18255004F4397 /* LocalStorage.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		B5EBAE278836C9897C23FB17 /* Frameworks */ = {
@@ -286,7 +389,11 @@
 			files = (
 				A83046E51EB7730A00AEB118 /* LaunchScreen.storyboard in Resources */,
 				A83046E21EB7730A00AEB118 /* Assets.xcassets in Resources */,
+				A87BD5D11ED182CB004F4397 /* Rooms.storyboard in Resources */,
+				A87BD5D31ED182E6004F4397 /* Scripts.storyboard in Resources */,
 				A83046E01EB7730A00AEB118 /* Main.storyboard in Resources */,
+				A87BD5CF1ED182A7004F4397 /* Dashboard.storyboard in Resources */,
+				A87BD5D51ED182FB004F4397 /* Settings.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,8 +556,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A83046DD1EB7730A00AEB118 /* ViewController.swift in Sources */,
+				A87BD5AD1ED17F28004F4397 /* SensorsVC.swift in Sources */,
+				A87BD5C71ED181FF004F4397 /* APIClient.swift in Sources */,
+				A87BD5BF1ED1803E004F4397 /* ScriptsVM.swift in Sources */,
+				A87BD5AF1ED17F41004F4397 /* RoomsVC.swift in Sources */,
+				A87BD5B31ED17F81004F4397 /* ScriptsVC.swift in Sources */,
+				A87BD5C91ED18240004F4397 /* FirebaseClient.swift in Sources */,
+				A87BD5B11ED17F65004F4397 /* RoomsDetailVC.swift in Sources */,
+				A87BD5BD1ED18016004F4397 /* RoomsDetailVM.swift in Sources */,
+				A87BD5B51ED17F9E004F4397 /* SettingsVC.swift in Sources */,
+				A87BD5B71ED17FCE004F4397 /* DashboardVM.swift in Sources */,
+				A87BD5AB1ED17EC6004F4397 /* DashboardVC.swift in Sources */,
+				A87BD5BB1ED17FF9004F4397 /* RoomsVM.swift in Sources */,
+				A87BD5C11ED1805B004F4397 /* SettingsVM.swift in Sources */,
+				A87BD5CD1ED1826E004F4397 /* ConnectionVC.swift in Sources */,
+				A87BD5C31ED181A0004F4397 /* DataProvider.swift in Sources */,
+				A87BD5C51ED181E4004F4397 /* ConnectionManager.swift in Sources */,
+				A87BD5B91ED17FE5004F4397 /* SensorsVM.swift in Sources */,
 				A83046DB1EB7730A00AEB118 /* AppDelegate.swift in Sources */,
+				A87BD5CB1ED18255004F4397 /* LocalStorage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
