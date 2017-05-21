@@ -38,21 +38,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MFT-6K-ac9">
-                                <rect key="frame" x="166" y="119" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="yXB-pd-3vv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="yXB-pd-3vv" secondAttribute="bottom" id="Eb8-1P-dl1"/>
+                            <constraint firstItem="yXB-pd-3vv" firstAttribute="top" secondItem="grw-30-yVX" secondAttribute="top" id="Kgd-q8-9Bw"/>
+                            <constraint firstAttribute="trailing" secondItem="yXB-pd-3vv" secondAttribute="trailing" id="RSc-zn-VsS"/>
+                            <constraint firstItem="yXB-pd-3vv" firstAttribute="leading" secondItem="grw-30-yVX" secondAttribute="leading" id="TOS-JB-JSR"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ylU-EX-5nh"/>
+                    <connections>
+                        <outlet property="tableView" destination="yXB-pd-3vv" id="nfG-cl-oIK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zoC-Gk-bBo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191" y="190"/>
+            <point key="canvasLocation" x="189.59999999999999" y="189.3553223388306"/>
         </scene>
     </scenes>
 </document>

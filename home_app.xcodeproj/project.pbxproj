@@ -37,6 +37,7 @@
 		A87BD5D11ED182CB004F4397 /* Rooms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D01ED182CB004F4397 /* Rooms.storyboard */; };
 		A87BD5D31ED182E6004F4397 /* Scripts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D21ED182E6004F4397 /* Scripts.storyboard */; };
 		A87BD5D51ED182FB004F4397 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87BD5D41ED182FB004F4397 /* Settings.storyboard */; };
+		A87BD5DC1ED1997E004F4397 /* DataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87BD5DB1ED1997E004F4397 /* DataClient.swift */; };
 		E9B7ACAD3250DDDFBEF5EFBB /* Pods_home_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10C54E8A9B75FD98D0BEE496 /* Pods_home_appUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +101,7 @@
 		A87BD5D01ED182CB004F4397 /* Rooms.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Rooms.storyboard; path = classes/Rooms.storyboard; sourceTree = "<group>"; };
 		A87BD5D21ED182E6004F4397 /* Scripts.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Scripts.storyboard; sourceTree = "<group>"; };
 		A87BD5D41ED182FB004F4397 /* Settings.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Settings.storyboard; path = classes/Settings.storyboard; sourceTree = "<group>"; };
+		A87BD5DB1ED1997E004F4397 /* DataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataClient.swift; sourceTree = "<group>"; };
 		FFDC3CBA14A8E6A249C8FFA5 /* Pods-home_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-home_appUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-home_appUITests/Pods-home_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -253,6 +255,7 @@
 				A87BD5C41ED181E4004F4397 /* ConnectionManager.swift */,
 				A87BD5C61ED181FF004F4397 /* APIClient.swift */,
 				A87BD5C81ED18240004F4397 /* FirebaseClient.swift */,
+				A87BD5DB1ED1997E004F4397 /* DataClient.swift */,
 				A87BD5CA1ED18255004F4397 /* LocalStorage.swift */,
 			);
 			name = Model;
@@ -564,6 +567,7 @@
 				A87BD5C91ED18240004F4397 /* FirebaseClient.swift in Sources */,
 				A87BD5B11ED17F65004F4397 /* RoomsDetailVC.swift in Sources */,
 				A87BD5BD1ED18016004F4397 /* RoomsDetailVM.swift in Sources */,
+				A87BD5DC1ED1997E004F4397 /* DataClient.swift in Sources */,
 				A87BD5B51ED17F9E004F4397 /* SettingsVC.swift in Sources */,
 				A87BD5B71ED17FCE004F4397 /* DashboardVM.swift in Sources */,
 				A87BD5AB1ED17EC6004F4397 /* DashboardVC.swift in Sources */,
