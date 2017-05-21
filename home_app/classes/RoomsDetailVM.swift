@@ -12,10 +12,10 @@ class RoomsDetailVM: NSObject {
     public var name = BehaviorSubject<String>(value: "")
     public var image = BehaviorSubject<String>(value: "")
     public var sensors = BehaviorSubject<Array<Any>>(value: Array<Any>())
-    public var storeId = BehaviorSubject<Int?>(value: nil)
+    public var roomId = BehaviorSubject<Int?>(value: nil)
     
     func subscribeToData() {
-        guard let idVal = try? storeId.value(),
+        guard let idVal = try? roomId.value(),
             let id = idVal  else { return }
         DataProvider.shared.getRoomDetails(roomId: id) { (results) in
             if let room = results,
@@ -29,7 +29,6 @@ class RoomsDetailVM: NSObject {
     }
     
     public func onViewAppear() {
-        //        requestData()
         subscribeToData()
     }
 
