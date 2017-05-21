@@ -2,9 +2,7 @@
 //  APIClient.swift
 //  home_app
 //
-//  Created by Alexandr Ovchinnikov on 21/05/2017.
-//  Copyright © 2017 Ovchinnikov. All rights reserved.
-//
+
 
 let API_ADDRESS = "http://192.168.1.100:8000"
 let API_PATH_PREFIX = "/api/v1/"

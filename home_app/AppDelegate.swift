@@ -2,9 +2,7 @@
 //  AppDelegate.swift
 //  home_app
 //
-//  Created by Alexandr Ovchinnikov on 01/05/2017.
-//  Copyright © 2017 Ovchinnikov. All rights reserved.
-//
+
 
 import UIKit
 import Firebase

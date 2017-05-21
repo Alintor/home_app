@@ -2,12 +2,24 @@
 //  RoomsVM.swift
 //  home_app
 //
-//  Created by Alexandr Ovchinnikov on 21/05/2017.
-//  Copyright © 2017 Ovchinnikov. All rights reserved.
-//
+
 
 import UIKit
+import RxSwift
 
 class RoomsVM: NSObject {
-
+    
+    public var roomItems = BehaviorSubject<Array<Any>>(value: Array<Any>())
+    
+    func subscribeToData() {
+        DataProvider.shared.getRooms { (results) in
+            if let items = results {
+                self.roomItems.onNext(items)
+            }
+        }
+    }
+    
+    public func onViewAppear() {
+        subscribeToData()
+    }
 }
